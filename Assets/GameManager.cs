@@ -25,13 +25,13 @@ public class GameManager : MonoBehaviour
     public void Player1Scored()
     {
         Player1Score++;
-        Player1Text.GetComponent<TextMeshProUGUI>().text = Player1Score.ToString();
+        //Player1Text.GetComponent<TextMeshProUGUI>().text = Player1Score.ToString();
     }
 
     public void Player2Scored()
     {
         Player2Score++;
-        Player2Text.GetComponent<TextMeshProUGUI>().text = Player2Score.ToString();
+        //Player2Text.GetComponent<TextMeshProUGUI>().text = Player2Score.ToString();
     }
 
 }
